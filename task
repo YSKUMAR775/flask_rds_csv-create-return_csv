@@ -1,0 +1,6 @@
+flask-api           : get method
+rds                 : connect to rds and select id
+create csv file     : insert rds data into csv file
+return              : return as csv file (not as link)
+
+postman             : http://127.0.0.1:5000/get_csv/4
