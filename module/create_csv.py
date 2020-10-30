@@ -27,7 +27,7 @@ def csv_create(id, info_1):
         total_list.append(all_dict)
 
     list_columns = ['id', 'name_info', 'mail', 'contact', 'address']
-    csv_path = 'C:/Users/Hemanth Y/Desktop/csv_file.csv'
+    csv_path = 'csv_file.csv'
 
     try:
         with open(csv_path, 'w') as csv_data:
